@@ -25,6 +25,8 @@
 ## BM1684X大模型能力展示
 
 * 应用运行中，需要退出的话，直接打开对应的后台terminal窗口，按`Ctrl + C`。
+* 怎么看应用是不是正确启动了：如果是正确启动，后台最后会显示一个网址链接（`http://xxxxxxxx:端口`），浏览器打开`http://192.168.150.1:端口`进入演示页面。
+* 如果应用没能正常启动，首先怀疑是刷机没刷好文件不完整，可以尝试重新刷，插卡上电后多等一会儿确保刷机完成。
 
 1. TTS文本转语音([code](https://github.com/ZillaRU/EmotiVoice-TPU))
 
@@ -32,7 +34,7 @@
    - 多样化情感
    - 中英文
    - 生成120s语音仅需3s
-   - 一行命令运行：`cd /data/EmotiVoice-TPU && python3 demo-page.py`
+   - 一行命令运行：`cd /data/EmotiVoice-TPU && python3 demo_page.py`
 2. 文生图、图生图
    - SD v1.5、v2.1([code](https://github.com/forechoandlook/aigc))
    - SD XL([code](https://github.com/ZillaRU/SDXL-tpu))
