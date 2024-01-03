@@ -7,8 +7,8 @@
 1. 如果是原厂发来的裸机，需要刷机；若不是裸机，跳过这步。
 
     刷机步骤：
-    1. 准备一张不小于32GB的sd卡和一个读卡器。[下载刷机包](https://pan.baidu.com/s/1gQO6b0WRPfxua3rYkcxwHA?pwd=swje)，这个刷机包里有llama、qwen、emotivoice、imagesearch、chatglm-int4、lcm的代码和模型以及CASAOS。如果需要其他应用，可以`git clone xxxx`，xxxx为github仓库链接，下面应用列表的code就是链接，环境配置和具体操作参考链接内的readme文档。
-    下载完成后解压缩，将如图这些文件（BOOT等等）直接复制到sd卡的根目录下。![刷机文件](4dab308d497d98e93411235c7b257861.jpg)
+    1. 准备一张不小于32GB的sd卡和一个读卡器。格式化sd卡为FAT32格式，参考[这里的格式化操作](https://support.bitmain.com/hc/zh-cn/articles/9856777513113-T19-%E5%8D%A1%E5%88%B7%E6%95%99%E7%A8%8B)。
+    2. [下载刷机包](https://pan.baidu.com/s/1gQO6b0WRPfxua3rYkcxwHA?pwd=swje)，这个刷机包里有llama、qwen、emotivoice、imagesearch、chatglm-int4、lcm的代码和模型以及CASAOS。如果需要其他应用，可以`git clone xxxx`，xxxx为github仓库链接，下面应用列表的code就是链接，环境配置和具体操作参考链接内的readme文档。下载完成后解压缩，将如图这些文件（BOOT等等）直接复制到sd卡的根目录下。![刷机文件](4dab308d497d98e93411235c7b257861.jpg)
     3. 将sd卡插在盒子的micro sd口；连接电源线，按PWR到绿灯亮起再松开；等待50分钟。到时间后，断电拔出sd卡。
 
 2. 连接电源线，按PWR到绿灯亮起再松开，听到风扇声音就是启动好了。![连接电源线和网线](b3fe38ac41db07e5ce90a7d76f792104.jpg)
